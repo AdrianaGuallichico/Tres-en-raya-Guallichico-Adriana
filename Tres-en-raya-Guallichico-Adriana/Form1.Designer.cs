@@ -71,9 +71,11 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.pictureBox1);
-            this.groupBox1.Location = new System.Drawing.Point(18, 21);
+            this.groupBox1.Location = new System.Drawing.Point(24, 26);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(173, 135);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(231, 166);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
@@ -81,9 +83,11 @@
             // 
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = global::Tres_en_raya_Guallichico_Adriana.Properties.Resources.nada;
-            this.pictureBox1.Location = new System.Drawing.Point(6, 11);
+            this.pictureBox1.Location = new System.Drawing.Point(8, 14);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(161, 118);
+            this.pictureBox1.Size = new System.Drawing.Size(215, 145);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_1);
@@ -91,9 +95,11 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.pictureBox2);
-            this.groupBox2.Location = new System.Drawing.Point(222, 21);
+            this.groupBox2.Location = new System.Drawing.Point(296, 26);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(175, 131);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Size = new System.Drawing.Size(233, 161);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             // 
@@ -101,19 +107,23 @@
             // 
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = global::Tres_en_raya_Guallichico_Adriana.Properties.Resources.estrella;
-            this.pictureBox2.Location = new System.Drawing.Point(6, 11);
+            this.pictureBox2.Location = new System.Drawing.Point(8, 14);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(163, 114);
+            this.pictureBox2.Size = new System.Drawing.Size(217, 140);
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.pictureBox3);
             this.groupBox3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.groupBox3.Location = new System.Drawing.Point(428, 21);
+            this.groupBox3.Location = new System.Drawing.Point(571, 26);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(198, 127);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Size = new System.Drawing.Size(264, 156);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             // 
@@ -121,18 +131,22 @@
             // 
             this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = global::Tres_en_raya_Guallichico_Adriana.Properties.Resources.estrella;
-            this.pictureBox3.Location = new System.Drawing.Point(6, 11);
+            this.pictureBox3.Location = new System.Drawing.Point(8, 14);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(186, 107);
+            this.pictureBox3.Size = new System.Drawing.Size(248, 132);
             this.pictureBox3.TabIndex = 1;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.pictureBox4);
-            this.groupBox4.Location = new System.Drawing.Point(12, 162);
+            this.groupBox4.Location = new System.Drawing.Point(16, 199);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(179, 124);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox4.Size = new System.Drawing.Size(239, 153);
             this.groupBox4.TabIndex = 3;
             this.groupBox4.TabStop = false;
             // 
@@ -140,18 +154,22 @@
             // 
             this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox4.Image = global::Tres_en_raya_Guallichico_Adriana.Properties.Resources.estrella;
-            this.pictureBox4.Location = new System.Drawing.Point(6, 2);
+            this.pictureBox4.Location = new System.Drawing.Point(8, 2);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(167, 116);
+            this.pictureBox4.Size = new System.Drawing.Size(223, 143);
             this.pictureBox4.TabIndex = 1;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // groupBox5
             // 
             this.groupBox5.Controls.Add(this.pictureBox5);
-            this.groupBox5.Location = new System.Drawing.Point(222, 158);
+            this.groupBox5.Location = new System.Drawing.Point(296, 194);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(180, 122);
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox5.Size = new System.Drawing.Size(240, 150);
             this.groupBox5.TabIndex = 4;
             this.groupBox5.TabStop = false;
             // 
@@ -159,18 +177,22 @@
             // 
             this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox5.Image = global::Tres_en_raya_Guallichico_Adriana.Properties.Resources.estrella;
-            this.pictureBox5.Location = new System.Drawing.Point(6, 6);
+            this.pictureBox5.Location = new System.Drawing.Point(8, 7);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(174, 110);
+            this.pictureBox5.Size = new System.Drawing.Size(232, 135);
             this.pictureBox5.TabIndex = 1;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // groupBox6
             // 
             this.groupBox6.Controls.Add(this.pictureBox6);
-            this.groupBox6.Location = new System.Drawing.Point(428, 154);
+            this.groupBox6.Location = new System.Drawing.Point(571, 190);
+            this.groupBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(198, 132);
+            this.groupBox6.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox6.Size = new System.Drawing.Size(264, 162);
             this.groupBox6.TabIndex = 5;
             this.groupBox6.TabStop = false;
             // 
@@ -178,18 +200,22 @@
             // 
             this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox6.Image = global::Tres_en_raya_Guallichico_Adriana.Properties.Resources.estrella;
-            this.pictureBox6.Location = new System.Drawing.Point(6, 8);
+            this.pictureBox6.Location = new System.Drawing.Point(8, 10);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(186, 112);
+            this.pictureBox6.Size = new System.Drawing.Size(248, 138);
             this.pictureBox6.TabIndex = 1;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // groupBox7
             // 
             this.groupBox7.Controls.Add(this.pictureBox7);
-            this.groupBox7.Location = new System.Drawing.Point(12, 301);
+            this.groupBox7.Location = new System.Drawing.Point(16, 370);
+            this.groupBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(188, 137);
+            this.groupBox7.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox7.Size = new System.Drawing.Size(251, 169);
             this.groupBox7.TabIndex = 6;
             this.groupBox7.TabStop = false;
             // 
@@ -197,9 +223,10 @@
             // 
             this.pictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox7.Image = global::Tres_en_raya_Guallichico_Adriana.Properties.Resources.estrella;
-            this.pictureBox7.Location = new System.Drawing.Point(0, 6);
+            this.pictureBox7.Location = new System.Drawing.Point(0, 7);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(176, 125);
+            this.pictureBox7.Size = new System.Drawing.Size(235, 154);
             this.pictureBox7.TabIndex = 1;
             this.pictureBox7.TabStop = false;
             this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
@@ -207,9 +234,11 @@
             // groupBox8
             // 
             this.groupBox8.Controls.Add(this.pictureBox8);
-            this.groupBox8.Location = new System.Drawing.Point(229, 301);
+            this.groupBox8.Location = new System.Drawing.Point(305, 370);
+            this.groupBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(179, 137);
+            this.groupBox8.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox8.Size = new System.Drawing.Size(239, 169);
             this.groupBox8.TabIndex = 7;
             this.groupBox8.TabStop = false;
             // 
@@ -217,18 +246,22 @@
             // 
             this.pictureBox8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox8.Image = global::Tres_en_raya_Guallichico_Adriana.Properties.Resources.estrella;
-            this.pictureBox8.Location = new System.Drawing.Point(0, 6);
+            this.pictureBox8.Location = new System.Drawing.Point(0, 7);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(173, 119);
+            this.pictureBox8.Size = new System.Drawing.Size(231, 146);
             this.pictureBox8.TabIndex = 1;
             this.pictureBox8.TabStop = false;
+            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
             // 
             // groupBox9
             // 
             this.groupBox9.Controls.Add(this.pictureBox9);
-            this.groupBox9.Location = new System.Drawing.Point(428, 301);
+            this.groupBox9.Location = new System.Drawing.Point(571, 370);
+            this.groupBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(198, 131);
+            this.groupBox9.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox9.Size = new System.Drawing.Size(264, 161);
             this.groupBox9.TabIndex = 8;
             this.groupBox9.TabStop = false;
             // 
@@ -236,19 +269,22 @@
             // 
             this.pictureBox9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox9.Image = global::Tres_en_raya_Guallichico_Adriana.Properties.Resources.estrella;
-            this.pictureBox9.Location = new System.Drawing.Point(6, 6);
+            this.pictureBox9.Location = new System.Drawing.Point(8, 7);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(186, 119);
+            this.pictureBox9.Size = new System.Drawing.Size(248, 146);
             this.pictureBox9.TabIndex = 1;
             this.pictureBox9.TabStop = false;
+            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
             // 
             // lbljugador
             // 
             this.lbljugador.AutoSize = true;
             this.lbljugador.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbljugador.Location = new System.Drawing.Point(225, 6);
+            this.lbljugador.Location = new System.Drawing.Point(300, 7);
+            this.lbljugador.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbljugador.Name = "lbljugador";
-            this.lbljugador.Size = new System.Drawing.Size(159, 23);
+            this.lbljugador.Size = new System.Drawing.Size(210, 31);
             this.lbljugador.TabIndex = 9;
             this.lbljugador.TabStop = true;
             this.lbljugador.Text = "Turno del jugador";
@@ -256,9 +292,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.lbljugador);
             this.Controls.Add(this.groupBox9);
             this.Controls.Add(this.groupBox8);
@@ -269,6 +305,7 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

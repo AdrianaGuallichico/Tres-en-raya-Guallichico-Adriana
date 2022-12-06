@@ -50,6 +50,10 @@ namespace Tres_en_raya_Guallichico_Adriana
                 Console.WriteLine("{0}", valor);
             }
         }
+        private void desactivarPicture(PictureBox picture)
+        {
+            picture.Enabled = false;
+        }
         private void pictureBox1_Click_1(object sender, EventArgs e)
         {
             
@@ -68,7 +72,66 @@ namespace Tres_en_raya_Guallichico_Adriana
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
+            pintarPicture(pictureBox7);
+            desactivarPicture(pictureBox7);
+            turno = !turno;
+            quienjuega(turno);
+        }
 
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            pintarPicture(pictureBox2);
+            desactivarPicture(pictureBox2);
+            turno = !turno;
+            quienjuega(turno);
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            pintarPicture(pictureBox3);
+            desactivarPicture(pictureBox3);
+            turno = !turno;
+            quienjuega(turno);
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            pintarPicture(pictureBox4);
+            desactivarPicture(pictureBox4);
+            turno = !turno;
+            quienjuega(turno);
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            pintarPicture(pictureBox5);
+            desactivarPicture(pictureBox5);
+            turno = !turno;
+            quienjuega(turno);
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            pintarPicture(pictureBox6);
+            desactivarPicture(pictureBox6);
+            turno = !turno;
+            quienjuega(turno);
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            pintarPicture(pictureBox8);
+            desactivarPicture(pictureBox8);
+            turno = !turno;
+            quienjuega(turno);
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+            pintarPicture(pictureBox9);
+            desactivarPicture(pictureBox9);
+            turno = !turno;
+            quienjuega(turno);
         }
     }
 }
