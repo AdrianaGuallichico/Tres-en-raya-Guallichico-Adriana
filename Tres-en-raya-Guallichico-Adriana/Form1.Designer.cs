@@ -92,6 +92,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Tag = "0";
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_1);
             // 
             // groupBox2
@@ -115,6 +116,7 @@
             this.pictureBox2.Size = new System.Drawing.Size(217, 140);
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Tag = "1";
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // groupBox3
@@ -139,6 +141,7 @@
             this.pictureBox3.Size = new System.Drawing.Size(248, 132);
             this.pictureBox3.TabIndex = 1;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Tag = "2";
             this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // groupBox4
@@ -162,6 +165,7 @@
             this.pictureBox4.Size = new System.Drawing.Size(223, 143);
             this.pictureBox4.TabIndex = 1;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Tag = "3";
             this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // groupBox5
@@ -185,6 +189,7 @@
             this.pictureBox5.Size = new System.Drawing.Size(232, 135);
             this.pictureBox5.TabIndex = 1;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Tag = "4";
             this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // groupBox6
@@ -208,6 +213,7 @@
             this.pictureBox6.Size = new System.Drawing.Size(248, 138);
             this.pictureBox6.TabIndex = 1;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Tag = "5";
             this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // groupBox7
@@ -231,6 +237,7 @@
             this.pictureBox7.Size = new System.Drawing.Size(235, 154);
             this.pictureBox7.TabIndex = 1;
             this.pictureBox7.TabStop = false;
+            this.pictureBox7.Tag = "6";
             this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
             // groupBox8
@@ -254,6 +261,7 @@
             this.pictureBox8.Size = new System.Drawing.Size(231, 146);
             this.pictureBox8.TabIndex = 1;
             this.pictureBox8.TabStop = false;
+            this.pictureBox8.Tag = "7";
             this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
             // 
             // groupBox9
@@ -277,6 +285,7 @@
             this.pictureBox9.Size = new System.Drawing.Size(248, 146);
             this.pictureBox9.TabIndex = 1;
             this.pictureBox9.TabStop = false;
+            this.pictureBox9.Tag = "8";
             this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
             // 
             // lbljugador

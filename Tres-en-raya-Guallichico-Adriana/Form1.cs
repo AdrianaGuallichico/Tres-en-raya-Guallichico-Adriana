@@ -169,6 +169,8 @@ namespace Tres_en_raya_Guallichico_Adriana
             
             pintarPicture(this.pictureBox1);
             desactivarPicture(pictureBox1);
+            ganar();
+            Movimientos++;
             turno = !turno;
             quienjuega(turno);
 
@@ -184,6 +186,8 @@ namespace Tres_en_raya_Guallichico_Adriana
         {
             pintarPicture(pictureBox7);
             desactivarPicture(pictureBox7);
+            ganar();
+            Movimientos++;
             turno = !turno;
             quienjuega(turno);
         }
@@ -192,6 +196,8 @@ namespace Tres_en_raya_Guallichico_Adriana
         {
             pintarPicture(pictureBox2);
             desactivarPicture(pictureBox2);
+            ganar();
+            Movimientos++;
             turno = !turno;
             quienjuega(turno);
         }
@@ -200,6 +206,8 @@ namespace Tres_en_raya_Guallichico_Adriana
         {
             pintarPicture(pictureBox3);
             desactivarPicture(pictureBox3);
+            ganar();
+            Movimientos++;
             turno = !turno;
             quienjuega(turno);
         }
@@ -208,6 +216,8 @@ namespace Tres_en_raya_Guallichico_Adriana
         {
             pintarPicture(pictureBox4);
             desactivarPicture(pictureBox4);
+            ganar();
+            Movimientos++;
             turno = !turno;
             quienjuega(turno);
         }
@@ -216,6 +226,8 @@ namespace Tres_en_raya_Guallichico_Adriana
         {
             pintarPicture(pictureBox5);
             desactivarPicture(pictureBox5);
+            ganar();
+            Movimientos++;
             turno = !turno;
             quienjuega(turno);
         }
@@ -224,6 +236,8 @@ namespace Tres_en_raya_Guallichico_Adriana
         {
             pintarPicture(pictureBox6);
             desactivarPicture(pictureBox6);
+            ganar();
+            Movimientos++;
             turno = !turno;
             quienjuega(turno);
         }
@@ -232,6 +246,8 @@ namespace Tres_en_raya_Guallichico_Adriana
         {
             pintarPicture(pictureBox8);
             desactivarPicture(pictureBox8);
+            ganar();
+            Movimientos++;
             turno = !turno;
             quienjuega(turno);
         }
@@ -240,6 +256,8 @@ namespace Tres_en_raya_Guallichico_Adriana
         {
             pintarPicture(pictureBox9);
             desactivarPicture(pictureBox9);
+            ganar();
+            Movimientos++;
             turno = !turno;
             quienjuega(turno);
         }
