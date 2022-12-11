@@ -1,0 +1,4 @@
+Calificación 3.3/4
+
+Una vez encontrado un ganador, no debe permitir que se sigan marcando los casilleros restantes
+
